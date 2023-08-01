@@ -14,12 +14,12 @@
 | del, erase, rmdir | rm           | rm           | delete file               |
 | copy              | cp           | cp             | copyng a file               |
 | move              | mv           | mv             | moving a file               |
-| rename            | mv           |     xxx       | rename-Item              |
-| type              | cat          |     xxx       | get-Content               |
+| rename            | mv           |     mv       | rename a file              |
+| type              | cat          |     cat       | to print contens of a file               |
 | cd                | cd           | pwd          | full path of current folder / directory               |
-| md                | mkdir        | xxx              | New-Item               |
-| pushd             | pushd        | xxx         | Push-Location            |
-| popd              | popd         | xxx          | Pop-Location             |
+| md                | mkdir        | mkdir              | to create a new directory / folder               |
+| pushd             | pushd        | pushd         | to save the current directory into a stack and move a new directory            |
+| popd              | popd         | popd          | to remove directories from the directory stack             |
 
 
 ### Linux Commands
